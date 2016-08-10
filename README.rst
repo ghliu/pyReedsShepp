@@ -25,6 +25,8 @@ Install from source
 Demo
 ======
 
+TODO
+
 .. code-block:: python
 
 	$ python demos/demo.py
