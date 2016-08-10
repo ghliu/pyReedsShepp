@@ -7,6 +7,8 @@ python:
 install:
     - if [[ ${TRAVIS_PYTHON_VERSION:0:1} == 2 ]]; then pip install unittest2; fi
     - pip install -r requirements.txt
+    - apt-get update -qq
+    - apt-get install libboost-dev
     - python setup.py install
 script:
     - nosetests
