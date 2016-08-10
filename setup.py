@@ -25,12 +25,16 @@ ext_modules = [
         include_dirs = ["reeds_shepp/include"])
     ]
 
+def read(filename):
+    path = os.path.join(os.path.dirname(__file__), filename)
+    contents = open(path).read()
+    return contents
 
 setup( 
 	name = "reeds_shepp",
     version      = "0.1.1",
     description  = "Code to calculate analytic Reeds Shepp path",
-    long_description = open('README.rst'),
+    long_description = read('README.rst'),
     author       = "Guan-Horng Liu",
     author_email = "guanhorl@andrew.cmu.edu",
     license      = "BSD",
