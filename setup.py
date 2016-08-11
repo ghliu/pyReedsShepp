@@ -1,5 +1,4 @@
 from distutils.core import setup, Extension
-#from setuptools import setup, Extension
 import os
 try:
 	from Cython.Distutils import build_ext
