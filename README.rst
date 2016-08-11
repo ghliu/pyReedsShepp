@@ -25,11 +25,15 @@ Install from source
 Demo
 ======
 
-TODO
-
-.. code-block:: python
+.. code-block:: console
 
 	$ python demos/demo.py
+
+.. image:: fig/demo.png
+    :width: 800px
+    :align: center
+    :height: 600px
+    :alt: alternate text
 
 
 API
@@ -53,8 +57,6 @@ TODO
 * PyPI install
 
 * cpp/python demo
-
-* build_status
 
 References
 ======
